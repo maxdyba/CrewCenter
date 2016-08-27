@@ -1,5 +1,5 @@
 # CrewCenter
-A modern, sleek and responsive phpVMS pilot center application.
+A modern, sleek and responsive phpVMS pilot center application. Designed by Mark Swan.
 
 # Warning
 This is a beta release. It is still in development and some features may not work as intended. If you find an error or bug, please post an issue report in GitHub.
