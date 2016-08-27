@@ -41,12 +41,14 @@ echo '<p class="text-muted">There are no downloads in this category.</p>';
                     <a href="<?php echo url('/downloads/dl/'.$download->id);?>">Download</a>
                     <hr>
                     <?php
-                    }
-                    }
+                        }
                     ?>
                 </div>
             </div>
         </div>
+        <?php
+            }
+        ?>
     </div>
 </section>
 
