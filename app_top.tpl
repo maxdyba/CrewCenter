@@ -1,3 +1,11 @@
+<?php
+    
+    if(empty(Auth::$userinfo->firstname)) {
+        header("Location: /");
+    }
+    
+?>
+   
 <div class="hold-transition skin-blue sidebar-mini">
     <div class="wrapper">
 
