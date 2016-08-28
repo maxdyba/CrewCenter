@@ -83,9 +83,12 @@ a {
 @media screen and (max-width: 42em) {
   .project-name {
     font-size: 1.75rem; } }
-   
-.project-name  {
-      color:gainsboro; }      
+ 
+  .project-name  {
+      color:whitesmoke;
+      text-shadow: 4px 2px 4px #454545;
+}
+      
 
 .project-tagline {
   margin-bottom: 2rem;
