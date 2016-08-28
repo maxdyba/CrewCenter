@@ -1,0 +1,6 @@
+{
+  "name": "CrewCenter",
+  "tagline": "A modern, sleek and responsive phpVMS pilot center application",
+  "body": "A modern, sleek and responsive phpVMS pilot center application. Designed by Mark Swan.\r\n\r\n# Warning\r\nThis is a beta release. It is still in development and some features may not work as intended. If you find an error or bug, please post an issue report in GitHub.\r\n\r\n# Attribution\r\nAs per the phpVMS license and the condition for using this skin, you must keep the 'CrewCenter by Mark Swan | Powered by phpVMS' attribution in the footer.\r\n\r\n# Installation\r\nThis skin is designed to be used on a phpVMS installation on a subdomain. Your main website will be static webpages without phpVMS.\r\nThis skin has been tested on the nabeelio/phpVMS repository running on PHP version 5.3.\r\n\r\n1. Download phpVMS and this skin.\r\n2. Create a subdomain of your website (e.g. crew.yourdomain.com) and install phpVMS.\r\n3. Move all files from this repository into a folder named 'crewcenter'.\r\n4. Log in to the phpVMS admin center, navigate to 'General Settings', then select the 'crewcenter' skin.\r\n\r\n# Contact\r\nIf you have any comments, queries or suggestions, please feel free to email me at mark.swan@outlook.com.au",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
