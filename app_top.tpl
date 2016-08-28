@@ -78,7 +78,12 @@
                     </li>
                     <li>
                         <a href="<?php echo url('/pireps/mine'); ?>">
-                            <i class="fa fa-list"></i> <span>My PIREPs</span>
+                            <i class="fa fa-list"></i> <span>My Reports</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?php echo url('/schedules/bids'); ?>">
+                            <i class="fa fa-list"></i> <span>My Bids</span>
                         </a>
                     </li>
                     <li>

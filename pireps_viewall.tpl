@@ -1,11 +1,11 @@
 <?php require 'app_top.tpl' ?>
 
 <section class="content-header">
-    <h1>PIREP List</h1>
+    <h1>My Reports</h1>
 </section>
 <section class="content">
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-8">
             <div class="box box-primary">
                 <div class="box-body table-responsive">
                     <p><?php if(isset($descrip)) { echo $descrip; }?></p>
@@ -17,8 +17,7 @@
                         <h4>No PIREPs Found</h4>
                         <p>You have not filed any PIREPs. File one through the ACARS software or manual PIREP submission to see its details and status on this page.</p>
                     </div>';
-                            return;
-                        }
+                        } else {
                     ?>
                     <table id="tabledlist" class="tablesorter table table-hover">
                         <thead>
@@ -100,6 +99,9 @@
                             ?>
                         </tbody>
                     </table>
+                    <?php
+                        }
+                    ?>
                 </div>
             </div>
         </div>
