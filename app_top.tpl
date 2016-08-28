@@ -81,7 +81,7 @@
                     </li>
                     <li>
                         <a href="<?php echo url('/pireps/filepirep'); ?>">
-                            <i class="fa fa-file-text"></i> <span>File Manual PIREP</span>
+                            <i class="fa fa-file-text"></i> <span>File Manual Report</span>
                         </a>
                     </li>
                     <li>

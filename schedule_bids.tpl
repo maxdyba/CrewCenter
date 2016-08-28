@@ -11,7 +11,10 @@
                     <?php
                         if(!$bids)
                         {
-                            echo '<div class="callout callout-info">You have no bids. Add a bid through the flight schedules.</div>';
+                            echo '<div class="callout callout-info">
+                            <h4>No Bids Found</h4>
+                            You have no bids. Add a bid through the flight schedules.
+                            </div>';
                         } else {
                     ?>
                     <table class="table table-hover">
@@ -38,7 +41,7 @@
                                 <td><?php echo $bid->deptime;?></td>
                                 <td><?php echo $bid->arrtime;?></td>
                                 <td><?php echo $bid->distance;?></td>
-                                <td><a href="<?php echo url('/pireps/filepirep/'.$bid->bidid);?>">File PIREP</a><br />
+                                <td><a href="<?php echo url('/pireps/filepirep/'.$bid->bidid);?>">File Report</a><br />
                                     <a id="<?php echo $bid->bidid; ?>" class="deleteitem" href="<?php echo url('/schedules/removebid');?>">Remove Bid (Double click)</a><br />
                                     <a href="<?php echo url('/schedules/brief/'.$bid->id);?>">Pilot Brief</a><br />
                                     <a href="<?php echo url('/schedules/boardingpass/'.$bid->id);?>" />Boarding Pass</a>

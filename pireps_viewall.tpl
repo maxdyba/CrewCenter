@@ -14,8 +14,8 @@
                         if(!$pireps)
                         {
                             echo '<div class="callout callout-info">
-                        <h4>No PIREPs Found</h4>
-                        <p>You have not filed any PIREPs. File one through the ACARS software or manual PIREP submission to see its details and status on this page.</p>
+                        <h4>No Reports Found</h4>
+                        <p>You have not filed any reports. File one through the ACARS software or manual report submission to see its details and status on this page.</p>
                     </div>';
                         } else {
                     ?>
