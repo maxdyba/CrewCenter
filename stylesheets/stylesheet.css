@@ -85,7 +85,8 @@ a {
     font-size: 1.75rem; } }
  
   .project-name  {
-      color:white; }
+      color:white;
+      text-shadow: 2px 2px #ff0000; }
 
 .project-tagline {
   margin-bottom: 2rem;
