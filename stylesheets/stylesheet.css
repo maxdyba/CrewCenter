@@ -83,6 +83,9 @@ a {
 @media screen and (max-width: 42em) {
   .project-name {
     font-size: 1.75rem; } }
+ 
+  .project-name  {
+      color:white; }
 
 .project-tagline {
   margin-bottom: 2rem;
